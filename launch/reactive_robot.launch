@@ -1,0 +1,6 @@
+<launch>
+
+<include file="$(find reactive_robot_sim)/launch/reactive_robot_sim.launch" />
+<node name="keybord" pkg="reactive_robot" type="turtlebot_node" />
+
+</launch>
